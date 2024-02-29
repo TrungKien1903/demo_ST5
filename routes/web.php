@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/page1', function () {
-    return view('page1');
+Route::get('/home.blade.php', function () {
+    return view('home');
+});
+
+Route::get('/about.blade.php', function () {
+    return view('about');
+});
+
+Route::get('/chair.blade.php', function () {
+    return view('chair');
+});
+
+Route::get('/intro.blade.php', function () {
+    return view('intro');
+});
+
+Route::get('/product.blade.php', function () {
+    return view('product');
+});
+
+Route::get('/table.blade.php', function () {
+    return view('table');
 });
